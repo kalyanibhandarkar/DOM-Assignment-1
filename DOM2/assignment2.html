@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Assign2</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+
+    <h1 id ="heading" style="text-align: center;">Traffic light</h1>
+
+    <div class="container">
+        <div class=" left-box">
+            <button onclick = "Ontap()" class ="b" > Stop </button><br><br>
+            <button onclick = "Onchangeclr()" class ="b" > Ready </button><br><br>
+            <button onclick = "changeclr()" class ="b" > Go </button>
+           
+        </div>
+
+        <div class="right">
+
+            <div class ="rectangle" >
+
+                <div id = "signal" class ="circle" ></div><br><br>
+                <div id = "signal1" class ="circle" ></div><br><br>
+                <div id = "signal2" class ="circle" ></div>
+            </div>
+        </div>
+    </div>
+    <script src="Dom Assign2.js"></script>
+</body>
+</html>
